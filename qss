@@ -1,0 +1,13 @@
+ addEventListener
+    ('click',()=>document.querySelector(".Quant")=parseInt(document.querySelector(".Quant").value)+1)
+
+
+    var fp=document.querySelector("#finalPrice") 
+var price=document.getElementsByClassName('price')
+for (let i = 0; i < qant.length; i++) 
+{
+    fp.value+=qant[i].value*parseInt(price[0].innerHTML);
+}
+
+
+soustraction()
